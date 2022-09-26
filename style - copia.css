@@ -1,0 +1,96 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+nav, article,
+footer,
+section { 
+  display: block;
+  min-width: 780px;
+  flex-direction: column;
+
+}
+nav {
+    display: flex;
+    background: #6a058b;
+    height: 5rem;
+    align-items: stretch;
+    align-content: flex-start;
+    text-align: center;
+    color: pink;
+    flex-direction: column;
+    justify-content: space-around;
+}
+article{
+  background-color: pink;
+  height: 25rem;
+  display: flex;
+  flex-direction: column
+  
+}
+
+article p{
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    text-align: center;
+}
+footer {
+  display: flex;
+    background: #6a058b;
+    height: 5rem;
+    color: pink;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+ 
+}
+section {
+  background: blueviolet;
+  height: 50rem;
+  
+}
+
+.principal{
+flex-direction: row;
+background-color: white;
+height: 20rem;
+display: flex;
+font-weight: bold;
+
+}
+
+.datos-primarios
+{
+    flex-direction: column;
+    background-color: pink;
+    width: 50%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: #1B4F72;
+    font-weight: bold;
+
+}
+
+.foto
+{
+    flex-direction: column;
+    background-color: pink;
+    width: 50%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+ .foto img{
+  height: 15rem;
+ margin-top: 8%; 
+}
